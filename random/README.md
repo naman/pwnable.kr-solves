@@ -42,7 +42,7 @@ We will use `display $reg` or `info registers` which spits out all the values he
 Asides:
 
 1. What's an unseeded pseudo-random number generater?
-- TODO
+- a pseudo-random number generator (PRNG) call sets a seed value. For the same value of the seed, the call will always return the same value, guaranteed by the seed.
 
 2. What's setuid or suid bit?
 - setuid / suid bit, when enabled allows the program run by A, to pretend as being run by another user B, and give up privileges (ideally! by using seteuid / set effective user ID). A common example is `passwd` binary. 
